@@ -1,9 +1,9 @@
 <div>
   <button (click)="onSelectUser()" >
     <!-- Property Binding  -->
-    <img [src]=" imagePath()" [alt] = "selectedUser().name"/>
+    <img [src]=" imagePath" [alt] = "name"/>
     <!-- String Interpolation -->
     <!-- <img src="{{ selectedUser.avatar }}"/> -->
-    <span>{{ selectedUser().name }}</span>
+    <span>{{ name }}</span>
   </button>
 </div>
